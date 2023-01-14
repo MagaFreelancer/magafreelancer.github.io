@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Gulp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header__nav nav">
+                <div class="container header__container"><a href="#!" class="logo">
+                        <picture>
+                            <source srcset="./img/logo.svg" type="image/webp"><img src="./img/logo.svg" alt="logo">
+                        </picture>
+                    </a>
+                    <ul class="header__menu nav__menu">
+                        <li class="nav__item header__item"><a href="#!" data-link="about"
+                                class="nav__link header__link links">About</a></li>
+                        <li class="nav__item header__item"><a href="#!" data-link="services"
+                                class="nav__link header__link links">Services</a></li>
+                        <li class="nav__item header__item"><a href="#!" data-link="contacts"
+                                class="nav__link header__link links">Contact</a></li>
+                        <li class="nav__item header__item"><a href="#!" class="header__button to-popup">Contact Us</a>
+                        </li>
+                    </ul><button class="burger button" data-burger><span class="burger-line"></span></button>
+                </div>
+            </nav>
+            <div class="header__title-wrapper">
+                <div class="container">
+                    <h1 class="header__title">Make Your Business Better With Us</h1>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="container header__container header__wrapper-bottom">
+                    <div class="header__info">
+                        <h6 class="header__info-heading">Our Offer</h6>
+                        <div class="header__text">Quickly search for products that meet the needs and desires of the
+                            customer and provide the necessary advice and assistance to the customer on their purchase
+                        </div>
+                    </div><a href="#!" data-link="about" class="header__button-down">
+                        <picture>
+                            <source srcset="../img/arrow-bottom.svg" type="image/webp"><img
+                                src="../img/arrow-bottom.svg" alt="arrow-bottom">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <section class="about" id="about">
+                <div class="container about__container">
+                    <div class="about__stats">
+                        <div class="about__col about-col-1">
+                            <div class="about__stats-num">80+</div>
+                            <div class="about__stats-descr">Business partners</div>
+                        </div>
+                        <div class="about__col about-col-2">
+                            <div class="about__stats-num">40+</div>
+                            <div class="about__stats-descr">Successful projects</div>
+                        </div>
+                        <div class="about__col about-col-3">
+                            <div class="about__stats-num">15+</div>
+                            <div class="about__stats-descr">Containers per week</div>
+                        </div>
+                        <div class="about__col about-col-4">
+                            <div class="about__stats-num">10+</div>
+                            <div class="about__stats-descr">Industries in sales</div>
+                        </div>
+                    </div>
+                    <div class="about__services">
+                        <h2 class="about__services-title title">Why<br>choose our services?</h2>
+                        <div class="about__services-info">
+                            <div class="about__services-col about__services-col--customer">
+                                <h6 class="about__services-heading">Customer Satisfaction</h6>
+                                <p class="about__services-descr">​To mobilize all the resources, knowledge and
+                                    experience of our Company's employees to meet the needs of customers</p>
+                            </div>
+                            <div class="about__services-col about__services-col--trans">
+                                <h6 class="about__services-heading">Transparency</h6>
+                                <p class="about__services-descr">We provide reliable and accurate information about our
+                                    achievements to create realistic expectations for our clients.</p>
+                            </div>
+                            <div class="about__services-col about__services-col--an">
+                                <h6 class="about__services-heading">An experience</h6>
+                                <p class="about__services-descr">Great experience of our employees. The best selection
+                                    of specialists for your company</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__info">
+                        <div class="about__info-col about__info-col-1">
+                            <h2 class="about__info-title title">About<br>Us</h2>
+                            <p class="about__info-descr">Venus Global Makina Ticaret Limited Sirketi was founded in 2022
+                                as a young and progressive company together with the best specialists in the field of
+                                trade, investment and consulting(HRM)</p>
+                        </div>
+                        <div class="about__info-col about__info-col-2">
+                            <h2 class="about__info-title title">Our<br>Mission</h2>
+                            <div class="about__wrapper-descr">
+                                <p class="about__info-descr">Our mission is to empower independent entrepreneurs to
+                                    chase their dreams. By simplifying the wholesale buying process and offering
+                                    straight-forward financial terms and logistics, we’re here to help you find great
+                                    wholesale vendors and grow your business. ​Our company will help you find the best
+                                    suppliers of goods and services from all over the world.</p>
+                                <p class="about__info-descr">​Our company will help you find the best suppliers of goods
+                                    and services from all over the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="services" id="services">
+                <div class="container services__container">
+                    <div class="services__col services__col--1 services__title title">Our<br>Services</div><a href="#!"
+                        class="services__col services__col--2 to-popup">
+                        <picture>
+                            <source srcset="./img/services2/1.webp" type="image/webp"><img src="./img/services2/1.jpg"
+                                alt="">
+                        </picture>
+                        <div class="services__col-name">Investment</div>
+                        <div class="services__col-wrapper">
+                            <div class="services__col-link">Order the<br>Service</div>
+                        </div>
+                    </a><a href="#!" class="services__col services__col--3 to-popup">
+                        <picture>
+                            <source srcset="./img/services2/2.webp" type="image/webp"><img src="./img/services2/2.jpg"
+                                alt="">
+                        </picture>
+                        <div class="services__col-name">Trading</div>
+                        <div class="services__col-wrapper">
+                            <div class="services__col-link">Order the<br>Service</div>
+                        </div>
+                    </a><a href="#!" class="services__col services__col--4 to-popup">
+                        <picture>
+                            <source srcset="./img/services2/3.webp" type="image/webp"><img src="./img/services2/3.jpg"
+                                alt="">
+                        </picture>
+                        <div class="services__col-name">Logistic</div>
+                        <div class="services__col-wrapper">
+                            <div class="services__col-link">Order the Service</div>
+                        </div>
+                    </a><a href="#!" class="services__col services__col--5 to-popup">
+                        <picture>
+                            <source srcset="./img/services2/4.webp" type="image/webp"><img src="./img/services2/4.jpg"
+                                alt="">
+                        </picture>
+                        <div class="services__col-name">HRM</div>
+                        <div class="services__col-wrapper">
+                            <div class="services__col-link">Order the<br>Service</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <section class="contacts" id="contacts">
+                <div class="container contacts__container">
+                    <h2 class="contacts__title title">Our<br>Contacts</h2>
+                    <div class="contacts__info">
+                        <div class="contacts__col contacts__col-1">
+                            <address class="contacts__adress">Göztepe Mah. Batışehir Cad. Batışehir H3 Blok No: 4 İç
+                                Kapı No: 63 Bağcılar İstanbul</address>
+                            <div class="contacts__tel">Tel: <a href="tel:5325420717">+90 (532) 642-07-17</a></div><a
+                                href="mailto:venusglobalmakina@gmail.com"
+                                class="contacts__email">venusglobalmakina@gmail.com</a>
+                        </div>
+                        <div class="contacts__col contacts__col-2">
+                            <div class="contacts__hint">Write your mail and we will contact you</div>
+                            <div class="contacts__heading">Email:</div>
+                            <form id="form2" class="contacts__form" action="#">
+                                <div class="contacts__field-wrapper">
+                                    <div class="contacts__field-error">
+                                        <picture>
+                                            <source srcset="./img/error-bg.svg" type="image/webp"><img
+                                                class="popup__field-img" src="./img/error-bg.svg" alt="">
+                                        </picture><span>Заполните поле</span>
+                                    </div><input type="text" name="email" class="contacts__field _req-2 _email">
+                                </div><button type="submit" class="contacts__button button">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="popup">
+                <div class="popup__body">
+                    <div class="popup__info">
+                        <h3 class="popup__title title">Your<br>Details</h3>
+                        <p class="popup__text">Venus Global Makina Ticaret Limited Sirketi Our company always treats its
+                            customers with care and provides the highest quality services</p>
+                    </div>
+                    <form action="#" id="form" class="popup__form">
+                        <div class="popup__title-mobile">Your<br>Details</div>
+                        <div class="popup__form-wrapper">
+                            <div class="popup__field-wrapper">
+                                <div class="popup__field-error">
+                                    <picture>
+                                        <source srcset="./img/error-bg.svg" type="image/webp"><img
+                                            class="popup__field-img" src="./img/error-bg.svg" alt="">
+                                    </picture><span>Заполните поле</span>
+                                </div><input type="text" name="companyNames" class="popup__field _req"
+                                    placeholder="Enter company name">
+                            </div>
+                            <div class="popup__field-wrapper">
+                                <div class="popup__field-error">
+                                    <picture>
+                                        <source srcset="./img/error-bg.svg" type="image/webp"><img
+                                            class="popup__field-img" src="./img/error-bg.svg" alt="">
+                                    </picture><span>Заполните поле</span>
+                                </div><input type="text" name="name" class="popup__field _req"
+                                    placeholder="Enter your name and surname">
+                            </div>
+                            <div class="popup__field-wrapper">
+                                <div class="popup__field-error">
+                                    <picture>
+                                        <source srcset="./img/error-bg.svg" type="image/webp"><img
+                                            class="popup__field-img" src="./img/error-bg.svg" alt="">
+                                    </picture><span>Заполните поле</span>
+                                </div><input type="text" name="email" class="popup__field _req _email"
+                                    placeholder="Enter your email">
+                            </div>
+                            <div class="popup__field-wrapper">
+                                <div class="popup__field-error">
+                                    <picture>
+                                        <source srcset="./img/error-bg.svg" type="image/webp"><img
+                                            class="popup__field-img" src="./img/error-bg.svg" alt="">
+                                    </picture><span>Заполните поле</span>
+                                </div><input type="text" name="nubmer" class="popup__field _req _num"
+                                    placeholder="+90 (___) ___ __ __">
+                            </div><button class="button popup__button">Submit</button>
+                        </div>
+                    </form>
+                    <div class="popup__close">
+                        <picture>
+                            <source srcset="./img/Close.svg" type="image/webp"><img src="./img/Close.svg" alt="close">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="loader"><svg class="spinner" viewBox="0 0 50 50">
+                    <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+                </svg></div>
+        </div>
+        <footer class="footer">
+            <div class="container footer__container"><a href="#!" class="logo">
+                    <picture>
+                        <source srcset="./img/logo-blue.svg" type="image/webp"><img src="./img/logo-blue.svg"
+                            alt="logo">
+                    </picture>
+                </a>
+                <nav class="footer__nav">
+                    <ul class="footer__menu nav__menu">
+                        <li class="footer__nav-item"><a href="#!" data-link="about"
+                                class="footer__nav-link links">About</a></li>
+                        <li class="footer__nav-item"><a href="#!" data-link="services"
+                                class="footer__nav-link links">Services</a></li>
+                        <li class="footer__nav-item"><a href="#!" data-link="contacts"
+                                class="footer__nav-link links">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__copyright">COPYRIGHT 2023</div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/scrollreveal.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
